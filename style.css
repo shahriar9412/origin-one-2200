@@ -177,3 +177,34 @@ li {
     font-weight: 400;
     margin: 24px 280px 48px;
 }
+
+/* image collage */
+.destination-images {
+    position: relative;
+    margin-left: 2.5rem;
+}
+
+.part-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.part-2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.part-3 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+/* .img-1 {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+} */
