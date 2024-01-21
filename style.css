@@ -27,6 +27,7 @@ body {
 }
 
 /* header styles */
+/* nav styles */
 
 nav {
     margin: 50px 100px;
@@ -111,5 +112,68 @@ select {
     width: 174px;
     border-radius: 8px;
     border: none;
+}
 
+.form-button button {
+    font-size: 16px;
+}
+
+/* desc secion */
+.desc {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-button {
+    margin-right: 100px;
+    width: calc(60%-100px);
+}
+
+.text-button span,
+li {
+    margin-top: 24px;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.d-big {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.d-small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.desc button {
+    margin-top: 32px;
+}
+
+.d-image {
+    padding-right: 50px;
+}
+
+/* main styles */
+/* destination section */
+.destination {
+    margin: 0 100px 100px;
+}
+
+.dest-big {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.dest-small {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 280px 48px;
 }
