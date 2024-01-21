@@ -16,10 +16,20 @@ body {
     color: #424247;
 }
 
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 15px 35px;
+}
+
 /* header styles */
 
 nav {
-    margin: 3.25rem 8.5rem;
+    margin: 50px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -56,4 +66,50 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+/* banner section */
+.banner {
+    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: 97%;
+    background-repeat: no-repeat;
+    margin: 0 100px;
+    padding: 100px 180px;
+    align-items: center;
+}
+
+.b-big {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+
+.b-small {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 8rem;
+    text-align: center;
+}
+
+.form-button {
+    display: inline-flex;
+    padding: 16px;
+    gap: 24px;
+    margin: 0 3rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.form-button input,
+select {
+
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    border: none;
+
 }
