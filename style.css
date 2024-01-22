@@ -70,13 +70,21 @@ nav a {
 }
 
 /* banner section */
-.banner {
-    background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
-    background-size: 97%;
-    background-repeat: no-repeat;
+.banner-container {
     margin: 0 100px;
-    padding: 100px 180px;
-    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.banner-container img {
+    width: 97%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .b-big {
@@ -115,8 +123,14 @@ select {
     padding-left: 20px;
 }
 
+select {
+    width: 194px;
+}
+
 .form-button button {
     font-size: 16px;
+    height: 52px;
+    width: 194px;
 }
 
 /* desc secion */
@@ -181,7 +195,8 @@ li {
 
 /* image collage */
 .destination-images {
-    margin-left: 2.5 rem;
+    position: relative;
+    margin-left: 3rem;
 }
 
 .part-1,
@@ -398,4 +413,78 @@ hr {
     font-family: Inter;
     font-size: 16px;
     font-weight: 300;
+}
+
+/* styles end */
+/* media query starts */
+@media screen and (max-width: 600px) {
+
+    /* header */
+    nav,
+    nav ul {
+        margin: 10px;
+        flex-direction: column;
+        display: block;
+        justify-content: left;
+    }
+
+    .nav-text-1,
+    .nav-text-2 {
+        font-size: 24px;
+    }
+
+    /* banner */
+    .banner-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    /* .banner-container img {}
+
+    .b-big {
+        font-size: 22px;
+    }
+
+    .b-small {
+        font-size: 14px;
+    }
+
+    .form-button {
+        flex-direction: column;
+    } */
+    
+    .desc {
+        margin: 10px;
+        flex-direction: column;
+        width: 390px;
+    }
+
+    .text-button span,
+    li,
+    .desc button {
+        margin: 10px 0;
+    }
+
+    .d-big, .dest-big {
+        font-size: 20px;
+        margin: 10px 0;;
+    }
+
+    .d-small, .dest-small {
+        font-size: 14px;
+        margin: 10px 0;;
+    }
+    .destination {
+        margin: 10px;
+        width: 300px;
+    }
+    
+    .part-1,
+    .part-2,
+    .part-3 {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    
+
 }
