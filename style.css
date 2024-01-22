@@ -267,4 +267,88 @@ li {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
+
 /* discount section */
+/* 1st part */
+.discount {
+    margin: 0 100px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-box {
+    width: 434px;
+    height: 342px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+
+}
+
+.sub-big {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sub-small {
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+    margin-bottom: 0;
+}
+
+.sub-btn {
+    display: block;
+}
+
+.sub-btn>button {
+    margin-top: 24px;
+    width: 393px;
+    height: 52px;
+}
+
+.sub-btn input {
+    margin-top: 24px;
+    width: 353px;
+    height: 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 20px;
+}
+
+
+/* 2nd part */
+
+.img-sticker {
+    position: relative;
+    text-align: center;
+}
+
+.t-1,
+.t-2 {
+    display: block;
+}
+
+.t-1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.t-2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#sticker {
+
+    position: absolute;
+    bottom: 70px;
+    right: 8px;
+    transform: rotate(-25deg);
+}
+/* footer styles */
