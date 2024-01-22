@@ -180,31 +180,91 @@ li {
 
 /* image collage */
 .destination-images {
-    position: relative;
-    margin-left: 2.5rem;
+    margin-left: 2.5 rem;
 }
 
-.part-1 {
-    display: flex;
-    gap: 24px;
-}
-
-.part-2 {
-    display: flex;
-    gap: 24px;
-    margin-top: 24px;
-}
-
+.part-1,
+.part-2,
 .part-3 {
     display: flex;
     gap: 24px;
     margin-top: 24px;
 }
 
-/* .img-1 {
+.image {
     position: relative;
     color: #FFF;
     text-align: center;
     font-size: 28px;
     font-weight: 800;
-} */
+}
+
+.txt-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* why choose us section */
+.ychoose {
+    margin: 0 100px 100px;
+}
+
+.y-big {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.y-small {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 370px 50px;
+}
+
+/* box styles */
+.double-box {
+    display: flex;
+    gap: 24px;
+}
+
+.yexplain-box {
+    margin-top: 24px;
+    width: 573px;
+    height: 230px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 40px;
+}
+
+.yx-big {
+
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.yx-small {
+
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.single-box {
+
+    display: flex;
+    justify-content: center;
+}
+
+#bg-change {
+
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+/* discount section */
