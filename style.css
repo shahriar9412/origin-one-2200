@@ -91,9 +91,6 @@ nav a {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    display: flex;
-    justify-content: center;
-
 }
 
 .b-small {
@@ -101,7 +98,6 @@ nav a {
     font-size: 16px;
     font-weight: 400;
     padding: 0 8rem;
-    text-align: center;
 }
 
 .form-button {
@@ -423,19 +419,63 @@ hr {
 
     nav,
     nav ul {
-        margin: 10px;
+
+        margin: 20px;
         flex-direction: column;
-        display: block;
-        justify-content: left;
     }
 
     .nav-text-1,
     .nav-text-2 {
+        font-size: 30px;
+    }
+
+    /* banner */
+    .banner-container {
+        margin: 20px;
+    }
+
+    .banner-content {
+        position: absolute;
+        margin-left: -80px;
+    }
+
+    .banner-container img {
+        border-radius: 16px;
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        position: relative;
+        margin-left: -150px;
+    }
+
+    .b-big {
         font-size: 24px;
     }
 
+    .b-small {
+        font-size: 14px;
+        padding: 0;
+    }
 
-    .b-big,
+    .form-button {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        margin: 0 20px;
+    }
+
+    .form-button input {
+        width: 250px;
+    }
+
+    .form-button button,
+    select {
+        width: 270px;
+    }
+
+    /* description */
+
     .d-big,
     .dest-big,
     .y-big,
@@ -445,42 +485,42 @@ hr {
         margin: 10px 0;
     }
 
-    .b-small,
-    .d-small,
+    .d-small span,
+    .ext,
+    li,
     .dest-small,
     .y-small,
-    .yx-small
-    .sub-small {
+    .yx-small .sub-small {
         font-size: 14px;
         margin: 10px 0;
+        padding: 0;
     }
 
-    .banner-container {
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .banner-container img {}
-
-    .form-button {
-        flex-direction: column;
-    }
 
     .desc {
-        margin: 10px;
+        margin: 20px;
         flex-direction: column;
-        width: 390px;
+        width: 480px;
     }
 
-    .text-button span,
-    li,
     .desc button {
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     .destination {
-        margin: 10px;
-        width: 300px;
+        margin: 20px;
+    }
+
+    .d-texts {
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    .d-image img {
+        width: 390px;
+        height: 430px;
+        border-radius: 16px;
+        margin-top: 20px;
     }
 
     .part-1,
@@ -490,56 +530,128 @@ hr {
         margin: 20px 0;
     }
 
-    .ychoose, .sub-big, .sub-small, .sub-btn button {
-        margin: 10px;
+    .image img {
+        width: 390px;
+        height: 220px;
+        position: relative;
+        margin-left: -200px;
+    }
+
+    .txt-center {
+        position: absolute;
+        margin-left: -100px;
+    }
+
+    .ychoose {
+        margin: 20px;
         width: 280px;
-        text-align:left;
+        text-align: left;
 
     }
-    .y-big,.y-small{
-        margin-left: 45px;
+
+    .y-big,
+    .y-small {
+        margin-left: 60px;
         width: 270px;
         text-align: center;
     }
-    .double-box, .single-box{
+
+    .double-box,
+    .single-box {
         flex-direction: column;
         justify-content: left;
-        gap: 10px;
+        gap: 8px;
     }
-    .yexplain-box{
-        width: 280px;
+
+    .yexplain-box {
+        width: 320px;
     }
-    .discount{
-        margin: 20px 10px;
+
+    .discount {
+        margin: 20px;
         flex-direction: column;
     }
-.subscribe-box{
-    width: 280px;
-    height: 310px;
-}
-.sub-btn input{
-    margin: 10px;
+
+    .subscribe-box {
+        width: 320px;
+        height: 310px;
+    }
+
+    .sub-big,
+    .sub-small,
+    .sub-btn button {
+        margin: 10px;
+        width: 280px;
+    }
+
+    .sub-btn input {
+        margin: 10px;
         width: 240px;
 
-}
-footer{
-    padding: 35px 40px;
-    width: 300px;
-}
+    }
 
-hr{
-    margin: 24px 0;
-}
-.ft-desc{
-    padding: 0 15px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
-.ft-icons{
-    margin:  10px 0;
-}
-.ft-desc, .last-ine{
-    font-size: 14px
-}
+    .img-sticker img {
+        width: 400px;
+        margin-top: 20px;
+        position: relative;
+        margin-left: -150px;
+    }
+
+    #sticker {
+        bottom: 47px;
+        right: 150px;
+    }
+
+    .t-1 {
+        font-size: 12px;
+    }
+
+    .t-2 {
+        font-size: 18px;
+    }
+
+    footer {
+        padding: 35px 40px;
+        width: 360px;
+    }
+
+    .footer-heading {
+        margin-top: -15px;
+    }
+
+    .ft-image img {
+
+        width: 35px;
+        height: 30px;
+
+    }
+
+    .ftxt-1,
+    .ftxt-2 {
+
+        font-size: 22px;
+        position: relative;
+        margin-top: 2rem;
+
+    }
+
+    hr {
+        margin: 24px 0;
+    }
+
+    .ft-desc {
+        padding: 0 15px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .ft-icons {
+        margin: 20px 0;
+    }
+
+    .ft-desc,
+    .last-line {
+        font-size: 14px;
+    }
 
 }
