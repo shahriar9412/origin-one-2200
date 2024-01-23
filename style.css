@@ -415,11 +415,12 @@ hr {
     font-weight: 300;
 }
 
-/* styles end */
+
 /* media query starts */
+
 @media screen and (max-width: 600px) {
 
-    /* header */
+
     nav,
     nav ul {
         margin: 10px;
@@ -433,26 +434,38 @@ hr {
         font-size: 24px;
     }
 
-    /* banner */
+
+    .b-big,
+    .d-big,
+    .dest-big,
+    .y-big,
+    .yx-big,
+    .sub-big {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .b-small,
+    .d-small,
+    .dest-small,
+    .y-small,
+    .yx-small
+    .sub-small {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
     .banner-container {
         margin: 10px;
         padding: 10px;
     }
 
-    /* .banner-container img {}
-
-    .b-big {
-        font-size: 22px;
-    }
-
-    .b-small {
-        font-size: 14px;
-    }
+    .banner-container img {}
 
     .form-button {
         flex-direction: column;
-    } */
-    
+    }
+
     .desc {
         margin: 10px;
         flex-direction: column;
@@ -465,26 +478,68 @@ hr {
         margin: 10px 0;
     }
 
-    .d-big, .dest-big {
-        font-size: 20px;
-        margin: 10px 0;;
-    }
-
-    .d-small, .dest-small {
-        font-size: 14px;
-        margin: 10px 0;;
-    }
     .destination {
         margin: 10px;
         width: 300px;
     }
-    
+
     .part-1,
     .part-2,
     .part-3 {
         flex-direction: column;
         margin: 20px 0;
     }
-    
+
+    .ychoose, .sub-big, .sub-small, .sub-btn button {
+        margin: 10px;
+        width: 280px;
+        text-align:left;
+
+    }
+    .y-big,.y-small{
+        margin-left: 45px;
+        width: 270px;
+        text-align: center;
+    }
+    .double-box, .single-box{
+        flex-direction: column;
+        justify-content: left;
+        gap: 10px;
+    }
+    .yexplain-box{
+        width: 280px;
+    }
+    .discount{
+        margin: 20px 10px;
+        flex-direction: column;
+    }
+.subscribe-box{
+    width: 280px;
+    height: 310px;
+}
+.sub-btn input{
+    margin: 10px;
+        width: 240px;
+
+}
+footer{
+    padding: 35px 40px;
+    width: 300px;
+}
+
+hr{
+    margin: 24px 0;
+}
+.ft-desc{
+    padding: 0 15px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.ft-icons{
+    margin:  10px 0;
+}
+.ft-desc, .last-ine{
+    font-size: 14px
+}
 
 }
