@@ -434,27 +434,20 @@ hr {
         margin: 20px;
     }
 
-    .banner-content {
-        position: absolute;
-        margin-left: -80px;
-    }
-
     .banner-container img {
         border-radius: 16px;
-        width: 400px;
-        height: 500px;
+        width: 550px;
+        height: 600px;
         object-fit: cover;
         object-position: center;
-        position: relative;
-        margin-left: -150px;
     }
 
     .b-big {
-        font-size: 24px;
+        font-size: 36px;
     }
 
     .b-small {
-        font-size: 14px;
+        font-size: 18px;
         padding: 0;
     }
 
@@ -466,12 +459,12 @@ hr {
     }
 
     .form-button input {
-        width: 250px;
+        width: 350px;
     }
 
     .form-button button,
     select {
-        width: 270px;
+        width: 370px;
     }
 
     /* description */
@@ -481,7 +474,7 @@ hr {
     .y-big,
     .yx-big,
     .sub-big {
-        font-size: 20px;
+        font-size: 30px;
         margin: 10px 0;
     }
 
@@ -490,8 +483,9 @@ hr {
     li,
     .dest-small,
     .y-small,
-    .yx-small .sub-small {
-        font-size: 14px;
+    .yx-small,
+    .sub-small {
+        font-size: 22px;
         margin: 10px 0;
         padding: 0;
     }
@@ -500,27 +494,31 @@ hr {
     .desc {
         margin: 20px;
         flex-direction: column;
-        width: 480px;
+        width: 570px;
     }
 
     .desc button {
         margin: 20px 0;
     }
 
-    .destination {
-        margin: 20px;
-    }
-
-    .d-texts {
-        width: 330px;
-        margin-left: 20px;
-    }
 
     .d-image img {
-        width: 390px;
-        height: 430px;
+        width: 550px;
+        height: 600px;
         border-radius: 16px;
         margin-top: 20px;
+    }
+
+    /* destination */
+
+    .destination {
+        margin: 20px 10px;
+    }
+
+    .dest-big,
+    .dest-small {
+        width: 400px;
+        margin-left: 65px;
     }
 
     .part-1,
@@ -531,15 +529,10 @@ hr {
     }
 
     .image img {
-        width: 390px;
-        height: 220px;
+        width: 560px;
+        height: 280px;
         position: relative;
-        margin-left: -200px;
-    }
-
-    .txt-center {
-        position: absolute;
-        margin-left: -100px;
+        margin-left: -50px;
     }
 
     .ychoose {
@@ -551,9 +544,8 @@ hr {
 
     .y-big,
     .y-small {
-        margin-left: 60px;
-        width: 270px;
-        text-align: center;
+        width: 400px;
+        margin-left: 65px;
     }
 
     .double-box,
@@ -564,7 +556,7 @@ hr {
     }
 
     .yexplain-box {
-        width: 320px;
+        width: 470px;
     }
 
     .discount {
@@ -573,46 +565,44 @@ hr {
     }
 
     .subscribe-box {
-        width: 320px;
-        height: 310px;
+        width: 470px;
+        height: 330px;
     }
 
     .sub-big,
     .sub-small,
     .sub-btn button {
         margin: 10px;
-        width: 280px;
+        width: 450px;
     }
 
     .sub-btn input {
         margin: 10px;
-        width: 240px;
+        width: 410px;
 
     }
 
     .img-sticker img {
-        width: 400px;
+        width: 550px;
         margin-top: 20px;
-        position: relative;
-        margin-left: -150px;
     }
 
     #sticker {
-        bottom: 47px;
-        right: 150px;
+        bottom: 56px;
+        right: -2px;
     }
 
     .t-1 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .t-2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     footer {
         padding: 35px 40px;
-        width: 360px;
+        width: 520px;
     }
 
     .footer-heading {
